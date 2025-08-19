@@ -1,2 +1,13 @@
-# chat-and-quiz-with-AI
-🧠 AI Chat &amp; Question Generator This is a Python-based AI chatbot powered by an API DeepSeek. It not only supports dynamic conversations with the AI but also allows the AI to generate custom questions based on user-defined requirements — making it useful for learning, interviews, or study preparation. 💬 Chat with an AI assistant using OpenRouter  
+# AI Chatbot & Question Generator
+This project is an AI-powered chatbot that can generate English language questions in a multiple-choice format. It is designed to interact through a console interface, with plans to add a user-friendly UI in future updates.
+
+## Features
+- Chat with an AI using DeepSeek Free API.
+- Generate English language questions from the conversation.
+- Questions are presented in multiple-choice format.
+- Easy to extend for additional topics and features.
+
+## Technologies Used
+- Python
+- JSON for handling API responses
+- DeepSeek Free API for AI-driven responses and question generation
