@@ -5,6 +5,7 @@ class QuizBrain:
         self.score = 0
 
     def still_question_remaining(self):
+        # It return true when there is still some questions
         return self.question_number < len(self.question_list)
 
     def next_question(self,):
