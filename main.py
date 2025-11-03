@@ -8,7 +8,7 @@ import json
 
 load_dotenv()
 
-# Replace with your OpenRouter API key
+# Replace with your OpenRouter API key.
 API_KEY = os.environ.get("API_KEY_SECRET")
 API_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
