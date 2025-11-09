@@ -1,7 +1,7 @@
 # AI Chatbot & Question Generator
 This project is an AI-powered chatbot that can generate English language questions in a multiple-choice format. It is designed to interact through a console interface, with plans to add a user-friendly UI in future updates.
 
-## Features
+## Features.
 - Chat with an AI using DeepSeek Free API.
 - Generate English language questions from the conversation.
 - Questions are presented in multiple-choice format.
