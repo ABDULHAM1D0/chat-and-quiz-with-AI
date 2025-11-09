@@ -7,7 +7,7 @@ This project is an AI-powered chatbot that can generate English language questio
 - Questions are presented in multiple-choice format.
 - Easy to extend for additional topics and features.
 
-## Technologies Used
+## Technologies Used.
 - Python
 - JSON for handling API responses
 - DeepSeek Free API for AI-driven responses and question generation
