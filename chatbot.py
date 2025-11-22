@@ -22,7 +22,7 @@ class ChatBot:
             assistant_message = response_data['choices'][0]['message']['content']
             print("AI:", assistant_message)
 
-            # Add assistant reply to messages
+            # Add assistant reply to messages.
             self.messages.append({"role": "assistant", "content": assistant_message})
 
         else:
