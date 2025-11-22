@@ -16,7 +16,7 @@ class Qiuz:
             "messages": message
         }
 
-        # Send request
+        # Send request.
         response = requests.post(self.api_url, json=data, headers=self.headers)
 
         if response.status_code == 200:
