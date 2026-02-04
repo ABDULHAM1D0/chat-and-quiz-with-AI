@@ -7,6 +7,7 @@ class Qiuz:
         self.headers = headers
 
     def create_quiz(self, level, number, types):
+        # this api created quiz questions by using deepseek LLM
         user_prompt = f'make me {number} {level}-level question, with asnwers and with 4 options on {types} in english language, questions must be as a dictionary inside list of python. without anything even introduction. list name must be questions.'
         print(user_prompt)
         message = [{"role": "user", "content": user_prompt}]
