@@ -12,7 +12,7 @@ load_dotenv()
 API_KEY = os.environ.get("API_KEY_SECRET")
 API_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
-# Define the headers
+# Define the headers.
 headers = {
     'Authorization': f'Bearer {API_KEY}',
     'Content-Type': 'application/json'
